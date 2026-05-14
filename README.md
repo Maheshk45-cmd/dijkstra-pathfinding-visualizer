@@ -32,5 +32,9 @@ The backend API provides the following endpoints:
 * `GET /api/graph`: Retrieve a list of all saved graphs.
 	+ Response: `[ { id: string, name: string, createdAt: string } ]`
 
+## Server Startup Log Message
+When the server starts, it will log a message to the console indicating that it is running on a specific port. The log message will be in the following format:
+`Server running  the  port ${PORT} and this is the change in the code`
+
 ## License
 This project is licensed under the MIT License. See LICENSE for details.
